@@ -1,0 +1,30 @@
+{
+    "config": {
+        "abort": {
+            "adguard_home_addon_outdated": "Aceasta integrare are nevoie de AdGuard Home versiunea {minimal_version} sau mai noua, in schimb tu ai {current_version}. Te rog actualizeaza-ti AdGuard Home add-on.",
+            "adguard_home_outdated": "Aceasta integrare are nevoie de AdGuard Home versiunea {minimal_version} sau mai noua, in schimb tu ai {current_version}.",
+            "existing_instance_updated": "Instanta existenta a fost actualizata.",
+            "single_instance_allowed": "Doar o singura instanta AdGuard Home este permisa."
+        },
+        "error": {
+            "connection_error": "Conectare esuata."
+        },
+        "step": {
+            "hassio_confirm": {
+                "description": "Doresti sa configurezi Home Assistant pentru a se conecta la AdGuard Home, oferit de Home Assistant add-on: {addon}?",
+                "title": "AdGuard Home via Home Assistant add-on"
+            },
+            "user": {
+                "data": {
+                    "host": "Server",
+                    "password": "Parola",
+                    "port": "Port",
+                    "ssl": "AdGuard Home foloseste certificat SSL",
+                    "username": "Utilizator",
+                    "verify_ssl": "AdGuard Home foloseste un certificat corespunzator"
+                },
+                "description": "Configureaza-ti instanta de AdGuard Home pentru a permite controlul si monitorizarea accesului la internet."
+            }
+        }
+    }
+}
